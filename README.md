@@ -2,6 +2,7 @@
 You are given a struct of `Node` and a Table that stores `Node*`. Your task is to complete the following 3 operations in `rank.c` and using makefile to test your code.
 
 There are 3 types of operations:
+
 'A': Insert
 - followed by `score` and `name` of inserted node 
 - add Node* with (score, name) into Table
@@ -16,7 +17,7 @@ There are 3 types of operations:
 
 The rank of Node* is defined below:
 - The higher score => the higher rank
-- If same score => ranking by their names in lexicological order
+- If same score => ranking by their names in lexicological order (ex: Cherry, Vivi and Vivian, the print order should be: Cherry, Vivi, Vivian)
 
 Input:
 First line contains 1 number t, t is the number of test cases.

@@ -39,6 +39,34 @@ Top 2:
 33 Kevin
 10 John
 ```
+
+Sample Input
+```
+8
+A 11 David
+A 37 Kevin
+C 2
+A 21 John
+B Kevin
+A 21 Sam
+C 1
+C 3
+```
+
+Sample Output
+```
+Top 2:
+37 Kevin
+11 David
+Top 1:
+21 John
+Top 3:
+21 John
+21 Sam
+11 David
+
+```
+
 How to test your code?
 1. Please `make clean` first and execute `make all` to generate a executable file.
 2. Run `make runtest`. If your get the `Test passed` message in four testcases, Congratulations!! 

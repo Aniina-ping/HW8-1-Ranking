@@ -47,6 +47,7 @@ Otherwise, please fixed the BUGS...
 Note: In homework8-1, the file that you should submit are `main.c`, `rank.h`, `rank.c`, and `makefile`.
 
 The Homework submission structure:
+```
 {student_id}_hw8
 ├── {student_id}_hw8-1
 |   ├──main.c
@@ -56,3 +57,4 @@ The Homework submission structure:
 └── {student_id}_hw8-2
     ├──{student_id}_hw8-2_report
     └──{student_id}_hw8-2.c
+```

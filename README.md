@@ -71,6 +71,14 @@ How to test your code?
 1. Please `make clean` first and execute `make all` to generate a executable file.
 2. Run `make runtest`. If your get the `Test passed` message in four testcases, Congratulations!! 
 Otherwise, please fixed the BUGS...
+Here is the script
+```
+make clean
+make all
+chmod +x ./golden
+chmod +x ./golden_mac // if you use mac
+make runtest
+```
 
 Note: In homework8-1, the file that you should submit are `main.c`, `rank.h`, `rank.c`, and `makefile`.
 
